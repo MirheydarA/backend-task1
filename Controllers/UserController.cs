@@ -4,7 +4,7 @@ namespace WebApplication1.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Index()
+        public ActionResult Index()
         {
             ViewBag.Name = "Heyder";
             ViewData["Surname"] = "Alizade";
